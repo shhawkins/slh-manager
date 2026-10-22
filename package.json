@@ -1,0 +1,10 @@
+{
+  "name": "slh-manager",
+  "private": true,
+  "type": "module",
+  "description": "slh's planner and manager: the paper week spread, release countdowns, 45-minute moves, a skill tree, and a Claude manager.",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build:page": "python3 scripts/build_page.py"
+  }
+}
